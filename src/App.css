@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+* {
+  @apply transition duration-200 ease-in;
+}
+
+.status-message {
+  @apply text-indigo-600 font-semibold text-2xl w-full text-center;
+}
+
+li {
+  @apply text-sm lg:text-base leading-relaxed text-slate-100 font-medium;
+}
+
+li strong {
+  @apply bg-gradient-to-br from-amber-300 via-amber-400 to-amber-600 bg-clip-text text-transparent font-bold uppercase tracking-widest;
+}
